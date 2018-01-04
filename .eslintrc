@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "extends": "standard",
+  "plugins": [
+    "html"
+  ],
+  "globals": {
+    "vue": false // 标识全局引用的 vue 等变量
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    // 根据屏幕分辨率情况，对长度超过一定长度的代码行进行警告，并忽略注释、字符串等情况
+    "max-len": [
+      1,
+      {
+        "code": 120,
+        "tabWidth": 2,
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ]
+  }
+}
