@@ -34,16 +34,29 @@
       }
     },
     {
-      "name": "projectProduction", // module name
+      "name": "project_production", // module name
       "source": {
-        "dir": "project/module-production", // module source dir
-        "page": "production.html", // page file name
+        "dir": "project/production", // module source dir
+        "page": "project-production.html", // page file name
         "script": "script/index.js", // script entry
         "assets": "assets", // other static files
-        "css": "css/production.css" // css source entry
+        "css": "css/project-production.css" // css source entry
       },
       "watch": [
-        "lib" // notify path "src/lib"
+        "lib", "project/production/script", "project/production/css", "project/production/assets" // notify path "src/lib"
+      ]
+    },
+    {
+      "name": "company_production", // module name
+      "source": {
+        "dir": "company/production", // module source dir
+        "page": "company-production.html", // page file name
+        "script": "script/index.js", // script entry
+        "assets": "assets", // other static files
+        "css": "css/company-production.css" // css source entry
+      },
+      "watch": [
+        "lib", "company/production/script", "company/production/css", "company/production/assets" // notify path "src/lib"
       ]
     }
   ]

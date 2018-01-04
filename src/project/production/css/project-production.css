@@ -1,0 +1,6 @@
+$high-light: #aaa;
+.hello{
+  .nest {
+    background-color: $high-light;
+  }
+}
