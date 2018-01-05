@@ -27,12 +27,10 @@
     {
       "name": "lib",
       "source": {
-        "lib": "lib",
-        "css": "project/css/project.css"
+        "lib": "lib"
       },
       "output": {
-        "lib": "js/lib",
-        "css": "project.css"
+        "lib": "js/lib"
       }
     },
     {

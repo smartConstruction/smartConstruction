@@ -1,6 +1,1 @@
-$high-light: #aaa;
-.hello{
-  .nest {
-    background-color: $high-light;
-  }
-}
+@import '../../css/project.css'
