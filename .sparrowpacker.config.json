@@ -27,20 +27,22 @@
     {
       "name": "lib",
       "source": {
-        "lib": "lib"
+        "lib": "lib",
+        "css": "project/css/project.css"
       },
       "output": {
-        "lib": "js/lib"
+        "lib": "js/lib",
+        "css": "project.css"
       }
     },
     {
-      "name": "project_production", // module name
+      "name": "project_map", // module name
       "source": {
-        "dir": "project/production", // module source dir
-        "page": "project-production.html", // page file name
+        "dir": "project/map", // module source dir
+        "page": "project-map.html", // page file name
         "script": "script/index.js", // script entry
         "assets": "assets", // other static files
-        "css": "css/project-production.css" // css source entry
+        "css": "css/project-map.css" // css source entry
       },
       "watch": [
         "lib", "project/production/script", "project/production/css", "project/production/assets" // notify path "src/lib"

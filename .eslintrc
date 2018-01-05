@@ -2,7 +2,8 @@
   "root": true,
   "extends": "standard",
   "plugins": [
-    "html"
+    "html",
+    "vue"
   ],
   "globals": {
     "Vue": false // 标识全局引用的 vue 等变量
